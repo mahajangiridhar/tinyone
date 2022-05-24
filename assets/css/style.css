@@ -1,0 +1,153 @@
+.container{
+	width: 950px;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	background-color: #fcdb00;
+	padding: 60px 0 105px;
+}
+.logo{
+	
+}
+.navbar li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 18.5px 0;
+	
+}
+.navbar li a{
+	padding: 0 18.5px 0;
+	text-transform: capitalize;
+	font-size: 22px;
+	color: #010101;
+	font-weight: bold;
+	height: 43px;
+	line-height: 43px;
+}
+.navbar li:first-child{
+	margin-right: 0px;
+	padding-left: 0;
+}
+.navbar li:last-child{
+	margin-right: 0;
+}
+.heading{
+	margin-bottom: 22px;
+	font-size: 32px;
+	color: #010101;
+	font-weight: bold;
+}
+.subHeading{
+	margin-bottom: 22px;
+	font-size: 20px;
+	font-weight: regular;
+	color: #313841;
+	
+}
+.col5 p{
+	font-size: 16px;
+	color: #555555;
+	margin-bottom: 45px;
+}
+
+.socialIcons li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 10px;
+	margin: 0 10px;
+	font-size: 40px;
+}
+.socialIcons li:first-child{
+	padding-left: 0;
+	margin-left: 0;
+}
+/* =============feature section starts here=========== */
+.features{
+	padding: 120px 0 160px;
+}
+.thumbImg{
+	font-size: 40px;
+	color: #010101;
+	text-align: right;
+}
+
+.thumbInfo h3{
+	font-size: 20px;
+	color: #010101;
+	font-weight: 100; 
+}
+.thumbInfo p{
+	font-size: 16px;
+	color: #898989;
+	font-family: 'Roboto', sans-serif;
+}
+/* ===========footer section css starts here========== */
+.footer{
+	padding-top: 96px;
+	padding-bottom: 140px;
+	background-color: #010101;
+}
+.footerheading{
+	color: #fcdb00;
+	font-size: 32px;
+	margin-bottom: 15px;
+}
+.footerpara{
+	color: #898989;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+.email{
+	width: calc(100% - 165px);
+	height: 50px;
+	margin-left: 0;
+	border-radius: 5px;
+	padding: 0 25px;
+	outline: none;
+}
+.email::placeholder{
+	font-size: 16px;
+	color: #898989;
+}
+.submit{
+	width: 125px;
+	height: 50px;
+	background-color: #fcdb00;
+	margin-left: 20px;
+	cursor: pointer;
+	color: #010101;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid #fcdb00;
+	transition: all 0.3s;
+}
+.submit:hover, .submit:active, .submit:focus{
+	background-color: #010101;
+	color: #fcdb00;
+}
+.footersocialIcons{
+	margin-bottom: 135px;
+}
+.footersocialIcons li{
+	list-style: none;
+	display: inline-block;
+}
+.footersocialIcons li a{
+	padding: 7.5px;
+	margin: 7.5px;
+	font-size: 42px;
+	color: #fcdb00;
+}
+.address li{
+	list-style: none;
+	display: inline-block;
+	font-size: 16px;
+	color: #fff;
+}
+.address li a{
+	font-size: 16px;
+	color: #fff;
+}
